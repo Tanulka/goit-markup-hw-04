@@ -231,6 +231,29 @@ img {
 
   margin-bottom: 10px;
 }
+.advantage-item::before {
+  display: block;
+  content: '';
+  height: 120px;
+  background-size: 65px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: var(--grey-bg-color);
+  margin-bottom: 30px;
+}
+.icon-1::before {
+  background-image: url('../images/antenna.svg');
+}
+.icon-2::before {
+  background-image: url('../images/clock.svg');
+}
+.icon-3::before {
+  background-image: url('../images/diagram.svg');
+}
+.icon-4::before {
+  background-image: url('../images/astronaut.svg');
+}
+
 /* Примеры работ и команда h2 */
 .section .section-title {
   font-size: 36px;
