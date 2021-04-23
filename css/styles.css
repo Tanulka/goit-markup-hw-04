@@ -89,7 +89,7 @@ img {
 }
 /* навигация сайта */
 .page-header {
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
 }
 
 .page-header .container {
@@ -155,7 +155,7 @@ img {
   align-items: center;
 }
 .contact .contact-link:hover,
-.contact .contat-link:focus {
+.contact .contact-link:focus {
   color: var(--accent-color);
 }
 
@@ -344,7 +344,8 @@ img {
 .social-icon-link:focus .social-icon-svg {
   fill: var(--primary-white-color);
 }
-.social-icon-link:hover {
+.social-icon-link:hover,
+.social-icon-link:focus {
   background-color: var(--accent-color);
 }
 
@@ -380,7 +381,8 @@ img {
   height: 60px;
   fill: var(--social-icon-color);
 }
-.logo-icon-link:hover .icon-logo {
+.logo-icon-link:hover .icon-logo,
+.logo-icon-link:focus .icon-logo {
   fill: var(--accent-color);
 }
 
@@ -409,7 +411,9 @@ img {
   color: rgba(100%, 100%, 100%, 60%);
 }
 .list .list-link:hover,
-.list-link:hover {
+.list-link:hover,
+.list .list-link:focus,
+.list-link:focus {
   color: var(--primary-white-color);
 }
 .list .list-not-link {
