@@ -58,7 +58,6 @@ img {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid red;
 }
 .visually-hidden {
   position: absolute !important;
@@ -480,9 +479,9 @@ img {
 }
 .list-portfolio {
   padding: 20px 0 20px 24px;
-  border-right: 1px solid #eeeeee;
-  border-bottom: 1px solid #eeeeee;
-  border-left: 1px solid #eeeeee;
+  border-right: 1px solid var(--primary-white-color);
+  border-bottom: 1px solid var(--primary-white-color);
+  border-left: 1px solid var(--primary-white-color);
 }
 .porfolio-title {
   font-weight: 700;
@@ -510,7 +509,7 @@ img {
   display: block;
 }
 .portfolio-link:hover {
-  border: 1px solid #eeeeee;
+  border: 1px solid var(--primary-white-color);
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
